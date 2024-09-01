@@ -18,7 +18,7 @@ app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
 const port = process.env.PORT || 5000;
-
+console.log('Jes feel like logging something for WEEK 5!!!');
 const start = async () => {
   try {
     app.listen(port, () =>
