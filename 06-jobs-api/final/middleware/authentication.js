@@ -19,5 +19,5 @@ const auth = async (req, res, next) => {
     throw new UnauthenticatedError('Authentication invalid')
   }
 }
-
+console.log('made changes for WEEK 6!!!');
 module.exports = auth
